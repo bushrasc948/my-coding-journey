@@ -1,25 +1,34 @@
-# Github profil sayfası ile ilgili geçici dosyalar
+# Çıktı ve Geçici Dosyalar - Profil sayfanızda oluşturulan SVG ve diğer dosyalar
 *.svg
 *.png
 *.jpg
 
-#IDE ve editör dosyaları
+# IDE ve Editör Dosyaları - Kod editörleri tarafından oluşturulan geçici dosyalar
 .vscode/
 .idea/
 
-# Geçici ve derleme dosyaları
+# Geçici ve Derleme Dosyaları - Geçici dosyalar ve derleme çıktıları
 *.log
 *.tmp
 *.swp
 *.swo
 
-# Platforma özgür dosyalar
+# Platforma Özgü Dosyalar - İşletim sistemi tarafından oluşturulan dosyalar
 .DS_Store
 Thumbs.db
 
-# Node.js bağımlılıkları
+# Node.js Bağımlılıkları - Node.js proje bağımlılıkları
 node_modules/
 
-# Python cache dosyaları
+# Python Önbellek Dosyaları - Python tarafından oluşturulan önbellek dosyaları
 __pycache__/
 *.pyc
+
+# Diğer - Projeye dahil etmek istemediğiniz diğer dosya türleri
+*.zip
+*.tar
+*.gz
+
+# Profil Sayfası İçin Özel Dosyalar - Profil README.md dosyanızda izlenmesini istemediğiniz dosyalar
+README.md
+.github/
